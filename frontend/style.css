@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .title {
+    font-size: 3em;
+    background: linear-gradient(to right, #c2a5ff, #4b33a3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1em;
+  }
+  
+  #drop-area {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  table {
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.1em;
+  }
+  
+  tr {
+    height: 3em;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f0f8ff; /* Light blue */
+  }  
+  
+  td {
+    padding: 0 20px; /* Adds horizontal spacing between columns */
+  }  
+  
+  .controls {
+    margin-top: 2em;
+  }
+  
+  .capsule {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #eee;
+    cursor: pointer;
+  }
+  
+  .capsule.active {
+    background: #d5c9f7;
+    font-weight: bold;
+  }
+  
+  #stretch-btn {
+    margin-top: 1em;
+    background: #28c76f;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+  }
+  

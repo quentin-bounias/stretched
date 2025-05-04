@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  stretched-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./images:/app/images     # folder to store input/output photos
